@@ -2,9 +2,9 @@ name: Actions Workflow
 #to dev
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"
-    - cron: "*/2 * * * *"
+  # schedule:
+  #   - cron: "*/1 * * * *"
+  #   - cron: "*/2 * * * *"
   # push:
   pull_request:
     types: [closed, assigned, opened, reopened]
