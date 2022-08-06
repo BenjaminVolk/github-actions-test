@@ -2,6 +2,9 @@ name: Actions Workflow
 #to dev
 
 on:
+  repository_dispatch:
+    types: [build]
+    
   # schedule:
   #   - cron: "*/1 * * * *"
   #   - cron: "*/2 * * * *"
