@@ -1,0 +1,11 @@
+name: benny
+age: 31
+address: "bsbdx: gdgdd"
+active: true
+key:
+  key: value
+  key2: 333
+  key3:
+    key: value
+    key3: dggddggd
+    key2: 2
